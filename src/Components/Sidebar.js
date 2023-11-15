@@ -4,13 +4,13 @@ import {SidebarItem} from './SidebarItem';
 function Sidebar() {
   return (
     <div className='sidebar'>
-        <ul>
+        <ul className='sidebarList'>
             {SidebarItem.map((val, key) => {
                 return(
-                <li key={key} onClink={()=>(window.location.pathname = val.link)}> 
+                <li className='row' key={key} onClink={()=>(window.location.pathname = val.link)}> 
                 {" "}
-                <div>{val.icon}</div> 
-                <div>{val.title}</div> 
+                <div id="icon">{val.icon}</div> 
+                <div id="title" >{val.title}</div> 
                 </li>
             )})
             
