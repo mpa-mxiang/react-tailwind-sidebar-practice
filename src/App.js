@@ -1,15 +1,7 @@
-import React from 'react';
-import './index.css';
-import Navbar from './Components/Navbar';
-import Sidebar from './Components/Sidebar';
-
+import Sidebar from "./Components/Sidebar"
+import "App.css";
 function App() {
-  return (
-    <React.StrictMode>
-      <Navbar />
-      <Sidebar />
-    </React.StrictMode>
-  );
+    return <div className="app"></div>
 }
 
-export default App;
+export default App
