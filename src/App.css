@@ -37,6 +37,10 @@ body {
     background-color: #293846;
 }
 
+.sidebarList #active {
+    background-color: #293846;
+}
+
 .row #icon {
     flex: 30%;
 }
