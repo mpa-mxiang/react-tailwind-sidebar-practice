@@ -7,7 +7,8 @@ export const SidebarItem = [
     {
         title: "Dashboard",
         icon: <DashboardIcon />,
-        link: "/dashboard"
+        link: "/dashboard",
+        class: "dashboard"
     },
     {
         title: "Assessment",

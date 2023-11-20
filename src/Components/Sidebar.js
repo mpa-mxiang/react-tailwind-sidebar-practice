@@ -8,9 +8,9 @@ function Sidebar() {
             {SidebarItem.map((val, key) => {
                 return(
                 <li 
-                className='row'
+                className={val.class}
                 key={key}
-                id={window.location.pathname == val.link ? "active" : ""}
+                id={window.location.pathname === val.link ? "active" : ""}
                 onClink={()=>(window.location.pathname = val.link)}> 
                 {" "}
                 <div id="icon">{val.icon}</div> 
